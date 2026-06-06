@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb8ee23bc7029140a492b1b43996516, type: 3}
+  m_Name: secondary-transfer
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ChapterSO
+  id: secondary-transfer
+  title:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  titleText: "Secondary transfer to SGH \u2014 08:42"
+  scene: 2
+  durationSec: 20
+  timeOfDay: 08:42 SGT
+  location: "En route Private \u2192 SGH"
+  beats:
+  - at: 0
+    actor: {fileID: 11400000, guid: ffe0881408eccef44b89ac6900692ad0, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: On the stretcher for the secondary transfer to SGH.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 150, y: 244}
+    pose: 5
+    expression: 3
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 0
+    actor: {fileID: 11400000, guid: 4932d370696b3694dabb35a9c3e30f64, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Re-runs ECG en route; no change.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 5
+    actor: {fileID: 11400000, guid: 92fece14ba7e15e44bc39b6599f863c8, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Pre-notifies SGH bypass bay; ETA 8 minutes.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 11
+    actor: {fileID: 11400000, guid: 4932d370696b3694dabb35a9c3e30f64, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Door-to-balloon clock now over the 90-minute target due to the detour.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 16
+    actor: {fileID: 11400000, guid: 4932d370696b3694dabb35a9c3e30f64, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Handover prepared; SGH cath team confirms readiness.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  branchPoint:
+    prompt:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    promptText: 
+    options: []
+  hasBranchPoint: 0
+  defaultNextChapter: {fileID: 11400000, guid: c894906f06afa46448dde7a07f27e3ea, type: 2}
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb8ee23bc7029140a492b1b43996516, type: 3}
+  m_Name: collapse
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ChapterSO
+  id: collapse
+  title:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  titleText: "Collapse \u2014 08:15 at Bras Basah"
+  scene: 1
+  durationSec: 30
+  timeOfDay: 08:15 SGT
+  location: Bras Basah kopitiam
+  beats:
+  - at: 0
+    actor: {fileID: 11400000, guid: ffe0881408eccef44b89ac6900692ad0, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: "Walking to the kopi counter \u2014 clutches chest, collapses."
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 214, y: 224}
+    pose: 0
+    expression: 3
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 2
+    actor: {fileID: 11400000, guid: 63ebc55f5d241734e9fa78cf3cd2e288, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Sees the collapse, shouts for help, dials 995.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 264, y: 224}
+    pose: 0
+    expression: 1
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 4
+    actor: {fileID: 11400000, guid: 32a4a9b5d96c23447b41a592301cb3bc, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Clears tables and keeps onlookers back so the area is safe.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 3
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 314, y: 214}
+    pose: 6
+    expression: 1
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 6
+    actor: {fileID: 11400000, guid: 63ebc55f5d241734e9fa78cf3cd2e288, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: 'On 995: dispatcher confirms cardiac arrest. Starts hands-only CPR.'
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 3
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 240, y: 240}
+    pose: 4
+    expression: 4
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 10
+    actor: {fileID: 11400000, guid: ffe0881408eccef44b89ac6900692ad0, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: "Pulseless. Receiving chest compressions at 100\u2013120 / min."
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 202, y: 238}
+    pose: 5
+    expression: 6
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 14
+    actor: {fileID: 11400000, guid: d28a55a7ff0a9084e805b940559198dd, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: "myResponder ping accepted \u2014 arrives with PAD AED from 280 m
+      away."
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 3
+    walking: 1
+    pos:
+      hasValue: 1
+      value: {x: 372, y: 232}
+    pose: 1
+    expression: 4
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 18
+    actor: {fileID: 11400000, guid: d28a55a7ff0a9084e805b940559198dd, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: AED pads on. Shock advised. Stand clear, shock delivered.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 2
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 166, y: 242}
+    pose: 2
+    expression: 4
+    showpiece:
+      kind: 3
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 22
+    actor: {fileID: 11400000, guid: d28a55a7ff0a9084e805b940559198dd, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: CPR resumed. Second cycle.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 2
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 170, y: 242}
+    pose: 4
+    expression: 4
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 26
+    actor: {fileID: 11400000, guid: ffe0881408eccef44b89ac6900692ad0, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Return of spontaneous circulation. Groaning. Pulse palpable.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 202, y: 238}
+    pose: 5
+    expression: 3
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  branchPoint:
+    prompt:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    promptText: 
+    options: []
+  hasBranchPoint: 0
+  defaultNextChapter: {fileID: 11400000, guid: 1ec118cd66e1cdf4f951adbd5c227622, type: 2}
+  references:
+    version: 2
+    RefIds: []

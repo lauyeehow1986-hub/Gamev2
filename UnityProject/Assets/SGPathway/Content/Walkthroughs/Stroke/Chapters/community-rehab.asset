@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb8ee23bc7029140a492b1b43996516, type: 3}
+  m_Name: community-rehab
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ChapterSO
+  id: community-rehab
+  title:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  titleText: "Community hospital rehab \u2014 week 2"
+  scene: 10
+  durationSec: 32
+  timeOfDay: "10:00 \xB7 week 2"
+  location: Bright Vision Community Hospital
+  beats:
+  - at: 0
+    actor: {fileID: 11400000, guid: 3267c4e121fb3a44bb12cbda64485426, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: "On the parallel bars \u2014 assisted gait practice, daily."
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 2
+    walking: 1
+    pos:
+      hasValue: 1
+      value: {x: 130, y: 218}
+    pose: 1
+    expression: 4
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 0
+    actor: {fileID: 11400000, guid: 3f195215462d0ee47bf38549c10e4f8a, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Supervises gait training. Berg balance score improving week-on-week.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 200, y: 232}
+    pose: 0
+    expression: 4
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 10
+    actor: {fileID: 11400000, guid: ccbbe6cc6dc0707408f83e8c64340c1a, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Naming therapy block. Mdm Lim names 14/20 common objects.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 290, y: 224}
+    pose: 3
+    expression: 4
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 18
+    actor: {fileID: 11400000, guid: a671bbed4f794f64aa4534e1893fe363, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: "Kitchen task: makes a cup of teh herself \u2014 first since admission."
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 3
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 350, y: 218}
+    pose: 0
+    expression: 5
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 26
+    actor: {fileID: 11400000, guid: 9c97b31702fd11440b9391b3478ed540, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Visits after work. Home modifications (grab bars, shower seat) installed.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 2
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 80, y: 224}
+    pose: 0
+    expression: 5
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  branchPoint:
+    prompt:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    promptText: 
+    options: []
+  hasBranchPoint: 0
+  defaultNextChapter: {fileID: 11400000, guid: 226ce1351111ebb4c8d2ee64fd4d42c0, type: 2}
+  references:
+    version: 2
+    RefIds: []

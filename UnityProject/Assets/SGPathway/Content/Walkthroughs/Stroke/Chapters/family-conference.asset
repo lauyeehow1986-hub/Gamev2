@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb8ee23bc7029140a492b1b43996516, type: 3}
+  m_Name: family-conference
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ChapterSO
+  id: family-conference
+  title:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  titleText: "Family conference \u2014 day 4"
+  scene: 7
+  durationSec: 32
+  timeOfDay: 14:00 day 4
+  location: NNI@TTSH stroke unit counselling room
+  beats:
+  - at: 0
+    actor: {fileID: 11400000, guid: 548e0b1240fa54b4daef5afd0d914f21, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Frames the rehab options for the family.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 150, y: 222}
+    pose: 6
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 8
+    actor: {fileID: 11400000, guid: 9c97b31702fd11440b9391b3478ed540, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Sits with her mother. Asks about subsidies and length of stay.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 320, y: 226}
+    pose: 3
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 14
+    actor: {fileID: 11400000, guid: da3975b9cc47ab540a2f891176927464, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Walks through MediShield Life claim and CHAS subsidy bands.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 200, y: 232}
+    pose: 0
+    expression: 4
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 22
+    actor: {fileID: 11400000, guid: 3267c4e121fb3a44bb12cbda64485426, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: 'Speaks slowly: prefers the community-hospital block.'
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 1
+      value: {x: 280, y: 228}
+    pose: 3
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  branchPoint:
+    prompt:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    promptText: Mdm Lim has plateaued; right-sided weakness remains moderate. What's
+      the rehab destination?
+    options:
+    - label:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      hint:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      labelText: Transfer to community hospital for 4-week inpatient rehab
+      hintText: "Goal-oriented inpatient programme \u2014 best modified-Rankin outcome
+        at 90 days for moderate residual deficits."
+      nextChapter: {fileID: 11400000, guid: f90ae23da579a2f47950e0f8c13dffac, type: 2}
+    - label:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      hint:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      labelText: Discharge home with outpatient rehab
+      hintText: Faster home reintegration; daughter is available; outpatient blocks
+        at TTSH. Less intensive.
+      nextChapter: {fileID: 11400000, guid: 226ce1351111ebb4c8d2ee64fd4d42c0, type: 2}
+  hasBranchPoint: 1
+  defaultNextChapter: {fileID: 11400000, guid: f90ae23da579a2f47950e0f8c13dffac, type: 2}
+  references:
+    version: 2
+    RefIds: []

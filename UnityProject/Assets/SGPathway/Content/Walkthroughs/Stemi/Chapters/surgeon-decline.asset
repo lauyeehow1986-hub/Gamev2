@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb8ee23bc7029140a492b1b43996516, type: 3}
+  m_Name: surgeon-decline
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ChapterSO
+  id: surgeon-decline
+  title:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  titleText: "Surgeon declines CABG \u2014 11:20"
+  scene: 7
+  durationSec: 25
+  timeOfDay: 11:20 SGT
+  location: SGH cardiology counselling room (continued)
+  beats:
+  - at: 0
+    actor: {fileID: 11400000, guid: d1d663728744cb947a26f8147f9acdb2, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Reviews SYNTAX score, EuroSCORE II, patient age 58.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 6
+    actor: {fileID: 11400000, guid: d1d663728744cb947a26f8147f9acdb2, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: 'Declines CABG: anatomy favours PCI; surgical risk is no better.'
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 13
+    actor: {fileID: 11400000, guid: 5c97a06ed4cf4a8418a4d1a09e6a9e7c, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Accepts the patient back for primary PCI.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  - at: 19
+    actor: {fileID: 11400000, guid: f8fc48cd80b0b494581e35f5b40a2cd1, type: 2}
+    action:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    actionText: Re-counsels family; single-lesion PCI proceeding now.
+    focus:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    direction: 0
+    walking: 0
+    pos:
+      hasValue: 0
+      value: {x: 0, y: 0}
+    pose: 0
+    expression: 0
+    showpiece:
+      kind: 0
+      externalSrc: 
+      posterSrc: 
+      title:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      caption:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      loop: 0
+  branchPoint:
+    prompt:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    promptText: 
+    options: []
+  hasBranchPoint: 0
+  defaultNextChapter: {fileID: 11400000, guid: 615093892dd429547b67f906360ddd2b, type: 2}
+  references:
+    version: 2
+    RefIds: []

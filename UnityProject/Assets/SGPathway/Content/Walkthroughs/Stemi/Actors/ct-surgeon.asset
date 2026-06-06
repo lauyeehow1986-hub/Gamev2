@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b216270264c588e46a6e2f9680451565, type: 3}
+  m_Name: ct-surgeon
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ActorSO
+  key: ct-surgeon
+  id: ct-surgeon
+  roleText: Cardiothoracic surgeon
+  role:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  team: 5
+  bioText: On-call cardiothoracic surgeon. Reviews angiogram for surgical candidacy.
+    Declines CABG when anatomy and SYNTAX score favour PCI.
+  bio:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  swatch: {r: 0.84705883, g: 0.7058824, b: 0.99607843, a: 1}
+  references:
+    version: 2
+    RefIds: []

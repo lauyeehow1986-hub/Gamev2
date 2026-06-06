@@ -1,0 +1,1319 @@
+{
+  "id": "stroke-pathway-v1",
+  "title": "Stroke — large-vessel occlusion pathway",
+  "startChapterRef": "collapse",
+  "actors": [
+    {
+      "key": "patient",
+      "id": "stroke-patient",
+      "role": "Mdm Lim, 72",
+      "team": "patient",
+      "bio": "A 72-year-old retired primary-school teacher. Hypertensive, on amlodipine, occasionally non-adherent. Sudden onset right-sided weakness and aphasia during morning tai-chi at the HDB void deck.",
+      "swatch": "#3aa6ff"
+    },
+    {
+      "key": "family-daughter",
+      "id": "family-daughter",
+      "role": "Daughter, 44",
+      "team": "patient",
+      "bio": "The patient's daughter, an accounts manager. Arrives at NNI@TTSH ~25 minutes after the ambulance, alerted by the SMRT station manager who relayed her mother's emergency contact. Acts as the family liaison through admission and discharge planning.",
+      "swatch": "#60a5fa"
+    },
+    {
+      "key": "bystander",
+      "id": "stroke-bystander",
+      "role": "Fellow commuter (uncle)",
+      "team": "bystander",
+      "bio": "A 60-something commuter standing across the carriage. Catches Mdm Lim as she slumps against the grab pole, notes the time, supports her airway. Calls out for the train staff and presses the SOS plunger by the doors.",
+      "swatch": "#a3e635"
+    },
+    {
+      "key": "smrt-staff",
+      "id": "smrt-staff",
+      "role": "SMRT station manager",
+      "team": "first-responder",
+      "bio": "Tampines station manager. Responds to the SOS plunger alert, meets the carriage at the platform, calls 995, walks the paramedics onto the train and clears the platform for the stretcher.",
+      "swatch": "#16a34a"
+    },
+    {
+      "key": "paramedic",
+      "id": "stroke-paramedic",
+      "role": "SCDF paramedic",
+      "team": "ambulance",
+      "bio": "SCDF Advanced Care Paramedic. Runs the FAST screen (Face, Arm, Speech, Time), confirms suspected stroke, transmits the stroke-bypass alert to the receiving NNI hyperacute stroke unit.",
+      "swatch": "#f87171"
+    },
+    {
+      "key": "driver",
+      "id": "stroke-driver",
+      "role": "SCDF EA driver",
+      "team": "ambulance",
+      "bio": "Emergency Ambulance driver. Routes to NNI@TTSH (the nearer NNI campus), pre-notifies the stroke team via the secondary-alert line.",
+      "swatch": "#fb923c"
+    },
+    {
+      "key": "ed-neurologist",
+      "id": "stroke-neurologist",
+      "role": "Stroke neurologist",
+      "team": "ed",
+      "bio": "On-call hyperacute stroke neurologist. Confirms NIHSS score, assesses thrombolysis eligibility, leads the imaging review and the family conversation.",
+      "swatch": "#ef4444"
+    },
+    {
+      "key": "ed-nurse",
+      "id": "stroke-nurse",
+      "role": "Stroke nurse",
+      "team": "ed",
+      "bio": "Hyperacute stroke unit nurse. Establishes IV access bilaterally, draws bloods (glucose, FBC, coag, U&E), monitors BP for thrombolysis target (<185/110).",
+      "swatch": "#dc2626"
+    },
+    {
+      "key": "imaging-radiog",
+      "id": "stroke-radiog",
+      "role": "CT radiographer",
+      "team": "cath",
+      "bio": "CT radiographer. Runs the unenhanced head CT then the CT angiogram from arch to vertex; reconstructs the multiplanar views the neurologist needs to decide.",
+      "swatch": "#6b21a8"
+    },
+    {
+      "key": "neuroradiologist",
+      "id": "neuroradiologist",
+      "role": "Neuroradiologist",
+      "team": "cath",
+      "bio": "Diagnostic neuroradiologist. Reads the non-contrast CT (ASPECTS score), CT angiogram (identifies the M1 occlusion), and CT perfusion (ischaemic core vs penumbra).",
+      "swatch": "#a855f7"
+    },
+    {
+      "key": "neuro-intervent",
+      "id": "neuro-intervent",
+      "role": "Interventional neuroradiologist",
+      "team": "cath",
+      "bio": "Endovascular interventional neuroradiologist. Performs the diagnostic angiogram, executes the mechanical thrombectomy using a stent retriever + aspiration catheter.",
+      "swatch": "#9333ea"
+    },
+    {
+      "key": "angio-nurse",
+      "id": "stroke-angio-nurse",
+      "role": "Angio suite nurse",
+      "team": "cath",
+      "bio": "Angio suite nurse. Scrubs in, monitors haemodynamics, manages contrast and heparin dosing, records the procedure log.",
+      "swatch": "#7e22ce"
+    },
+    {
+      "key": "angio-radiog",
+      "id": "stroke-angio-radiog",
+      "role": "Angio radiographer",
+      "team": "cath",
+      "bio": "Operates the biplane angio C-arms; optimises views for the operator; manages radiation dose during long mechanical-thrombectomy runs.",
+      "swatch": "#581c87"
+    },
+    {
+      "key": "nicu-doctor",
+      "id": "stroke-nicu-doctor",
+      "role": "Neuro-ICU registrar",
+      "team": "ward",
+      "bio": "Neuro-ICU registrar. Receives the post-thrombectomy patient, monitors for symptomatic intracranial haemorrhage in the first 24h, manages BP targets.",
+      "swatch": "#0ea5e9"
+    },
+    {
+      "key": "ward-consultant",
+      "id": "stroke-ward-consultant",
+      "role": "Stroke unit consultant",
+      "team": "ward",
+      "bio": "Consultant neurologist leading the daily stroke ward round. Reviews the case, sets the secondary-prevention plan, drives the multidisciplinary discussion.",
+      "swatch": "#0284c7"
+    },
+    {
+      "key": "ward-nurse",
+      "id": "stroke-ward-nurse",
+      "role": "Stroke ward nurse",
+      "team": "ward",
+      "bio": "Stroke unit staff nurse. Hourly neuro observations, swallow screening before any oral intake, falls-risk management.",
+      "swatch": "#075985"
+    },
+    {
+      "key": "speech-therapist",
+      "id": "speech-therapist",
+      "role": "Speech-language therapist (AHP)",
+      "team": "ward",
+      "bio": "Speech-language therapist. Formal swallow assessment after bedside screen; aphasia workup; communication strategies for the family.",
+      "swatch": "#10b981"
+    },
+    {
+      "key": "ward-physio",
+      "id": "stroke-physio",
+      "role": "Stroke physiotherapist (AHP)",
+      "team": "ward",
+      "bio": "Stroke physiotherapist. Early mobilisation, balance retraining, gait reeducation. Coordinates the discharge mobility plan with OT.",
+      "swatch": "#059669"
+    },
+    {
+      "key": "ward-ot",
+      "id": "stroke-ot",
+      "role": "Occupational therapist (AHP)",
+      "team": "ward",
+      "bio": "Stroke OT. Upper-limb function, ADL retraining, home assessment, equipment prescription for the HDB flat.",
+      "swatch": "#047857"
+    },
+    {
+      "key": "rehab-physio",
+      "id": "stroke-rehab-physio",
+      "role": "Community rehab physio",
+      "team": "rehab",
+      "bio": "Community hospital stroke rehab physiotherapist. Supervises the 4-week inpatient rehab block at the community hospital after the acute admission.",
+      "swatch": "#ec4899"
+    },
+    {
+      "key": "clinic-neuro",
+      "id": "clinic-neuro",
+      "role": "Stroke clinic neurologist",
+      "team": "outpatient",
+      "bio": "Outpatient stroke clinic neurologist. 6-week review: imaging follow-up, antiplatelet plan, statin titration, BP target, lifestyle reinforcement.",
+      "swatch": "#f97316"
+    },
+    {
+      "key": "discharge-coord",
+      "id": "stroke-discharge-coord",
+      "role": "Case manager",
+      "team": "ward",
+      "bio": "Discharge planner. Coordinates community-hospital rehab transfer, home-mod assessment, financial counselling (MediShield Life, ElderShield, Pioneer Generation subsidies).",
+      "swatch": "#022c22"
+    }
+  ],
+  "chapters": [
+    {
+      "key": "collapse",
+      "id": "collapse",
+      "title": "Sudden onset — 08:35 on the MRT",
+      "scene": "mrt",
+      "durationSec": 30,
+      "timeOfDay": "08:35 SGT",
+      "location": "EWL · between Bedok and Tampines",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "ambulance",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "Standing at the pole — sudden right arm gives way, leans on the door.",
+          "hasPos": true,
+          "posX": 174,
+          "posY": 244,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "pained",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 3,
+          "actorRef": "bystander",
+          "action": "Sees her slump against the pole. Moves in to catch her.",
+          "hasPos": true,
+          "posX": 220,
+          "posY": 248,
+          "direction": "W",
+          "walking": true,
+          "pose": "walk",
+          "expression": "alarmed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 7,
+          "actorRef": "patient",
+          "action": "Right side weak, speech slurred but conscious. Eased into the priority seat.",
+          "hasPos": true,
+          "posX": 50,
+          "posY": 230,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 11,
+          "actorRef": "bystander",
+          "action": "Presses the SOS plunger by the doors. Calls out for the train staff.",
+          "hasPos": true,
+          "posX": 222,
+          "posY": 226,
+          "direction": "E",
+          "walking": false,
+          "pose": "point",
+          "expression": "alarmed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 17,
+          "actorRef": "smrt-staff",
+          "action": "Radios control: medical emergency, car 3. Train held at next platform.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 232,
+          "direction": "W",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 22,
+          "actorRef": "bystander",
+          "action": "Steadies her head. Notes the time of onset for the medics. FAST positive.",
+          "hasPos": true,
+          "posX": 86,
+          "posY": 236,
+          "direction": "E",
+          "walking": false,
+          "pose": "kneel",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 26,
+          "actorRef": "smrt-staff",
+          "action": "On 995: stroke alert. Paramedics rerouted to Tampines platform 2.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 232,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "ambulance",
+      "id": "ambulance",
+      "title": "Ambulance at the station — 08:48",
+      "scene": "street",
+      "durationSec": 26,
+      "timeOfDay": "08:48 SGT",
+      "location": "Tampines MRT platform 2 → ambulance bay",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "arrive-nni",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "paramedic",
+          "action": "Met on the platform by SMRT staff. FAST positive on assessment.",
+          "hasPos": true,
+          "posX": 222,
+          "posY": 246,
+          "direction": "W",
+          "walking": false,
+          "pose": "kneel",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 4,
+          "actorRef": "patient",
+          "action": "On the stretcher off the train — alert, right hemiparesis, expressive aphasia.",
+          "hasPos": true,
+          "posX": 170,
+          "posY": 244,
+          "direction": "S",
+          "walking": false,
+          "pose": "collapsed",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 8,
+          "actorRef": "paramedic",
+          "action": "BP 178/102. Capillary glucose 6.4 (rules out hypoglycaemia).",
+          "hasPos": true,
+          "posX": 222,
+          "posY": 246,
+          "direction": "W",
+          "walking": false,
+          "pose": "kneel",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 13,
+          "actorRef": "driver",
+          "action": "Stroke bypass called. Routes to NNI@TTSH. Pre-notifies stroke team.",
+          "hasPos": true,
+          "posX": 312,
+          "posY": 238,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 19,
+          "actorRef": "paramedic",
+          "action": "Last-known-well 08:35. Onset-to-door projected: 27 min.",
+          "hasPos": true,
+          "posX": 222,
+          "posY": 240,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 24,
+          "actorRef": "smrt-staff",
+          "action": "Hands over emergency contact (next-of-kin) from the patient's wallet.",
+          "hasPos": true,
+          "posX": 100,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "arrive-nni",
+      "id": "arrive-nni",
+      "title": "NNI@TTSH stroke bypass — 09:02",
+      "scene": "resus",
+      "durationSec": 30,
+      "timeOfDay": "09:02 SGT",
+      "location": "NNI@TTSH hyperacute stroke unit",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "ct-scan",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "On the resus trolley — NIHSS being scored on arrival.",
+          "hasPos": true,
+          "posX": 250,
+          "posY": 181,
+          "direction": "S",
+          "walking": false,
+          "pose": "collapsed",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "paramedic",
+          "action": "Verbal handover: FAST positive, LKW 08:35, BP 178/102, GCS 14.",
+          "hasPos": true,
+          "posX": 138,
+          "posY": 226,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 7,
+          "actorRef": "ed-neurologist",
+          "action": "Quick neuro exam. NIHSS 14 — moderate-severe stroke. Activates the lab.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 14,
+          "actorRef": "ed-nurse",
+          "action": "Two large-bore IVs. Bloods (glucose, FBC, coag, U&E) sent stat.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 226,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 20,
+          "actorRef": "ed-neurologist",
+          "action": "BP 178/102 — within thrombolysis threshold. Walks family to CT.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 26,
+          "actorRef": "family-daughter",
+          "action": "Arrives at NNI from work. Holds her mother's left hand.",
+          "hasPos": true,
+          "posX": 286,
+          "posY": 224,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "ct-scan",
+      "id": "ct-scan",
+      "title": "CT head + CTA + CTP — 09:14",
+      "scene": "imaging",
+      "durationSec": 28,
+      "timeOfDay": "09:14 SGT",
+      "location": "NNI@TTSH CT suite",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "cta-decision",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "On the CT table, sliding into the gantry.",
+          "hasPos": true,
+          "posX": 195,
+          "posY": 181,
+          "direction": "S",
+          "walking": false,
+          "pose": "collapsed",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "imaging-radiog",
+          "action": "Non-contrast head CT first — rules out haemorrhage.",
+          "hasPos": true,
+          "posX": 138,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 8,
+          "actorRef": "neuroradiologist",
+          "action": "Non-contrast: ASPECTS 8 — limited early ischaemic change.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 14,
+          "actorRef": "imaging-radiog",
+          "action": "CT angiogram from arch to vertex. Contrast bolus tracked.",
+          "hasPos": true,
+          "posX": 138,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 20,
+          "actorRef": "neuroradiologist",
+          "action": "CTA: left M1 cut-off. CTP: small core, large penumbra.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "cta-decision",
+      "id": "cta-decision",
+      "title": "Reperfusion decision — 09:30",
+      "scene": "counsel",
+      "durationSec": 30,
+      "timeOfDay": "09:30 SGT",
+      "location": "NNI@TTSH stroke decision area",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "thrombolysis",
+      "hasBranchPoint": true,
+      "branchPoint": {
+        "prompt": "Onset-to-door 27 min. CTA shows left M1 occlusion. CTP: small core, large penumbra. No tPA contraindications on screen. What does the stroke team do?",
+        "options": [
+          {
+            "label": "Bridging IV thrombolysis + endovascular thrombectomy",
+            "hint": "Within the 4.5h tPA window AND a large-vessel occlusion eligible for thrombectomy. Standard of care.",
+            "nextChapterRef": "thrombolysis"
+          },
+          {
+            "label": "Primary thrombectomy only (skip thrombolysis)",
+            "hint": "tPA contraindicated (recent surgery, INR > 1.7, BP > 185/110 not controllable). Goes straight to angio suite.",
+            "nextChapterRef": "thrombectomy"
+          }
+        ]
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "ed-neurologist",
+          "action": "Frames the choice for the family in plain English + Mandarin.",
+          "hasPos": true,
+          "posX": 150,
+          "posY": 222,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 8,
+          "actorRef": "family-daughter",
+          "action": "Sits beside her mother. Asks about bleeding risk.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 226,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 16,
+          "actorRef": "neuroradiologist",
+          "action": "Shows CTA M1 cut-off + CTP mismatch on the workstation.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 24,
+          "actorRef": "ed-neurologist",
+          "action": "Recommends bridging IV thrombolysis + thrombectomy.",
+          "hasPos": true,
+          "posX": 150,
+          "posY": 222,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "thrombolysis",
+      "id": "thrombolysis",
+      "title": "IV thrombolysis — 09:36",
+      "scene": "resus",
+      "durationSec": 22,
+      "timeOfDay": "09:36 SGT",
+      "location": "NNI@TTSH HSU bay 2",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "thrombectomy",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "Receiving bolus. BP 172/96, monitored continuously.",
+          "hasPos": true,
+          "posX": 250,
+          "posY": 181,
+          "direction": "S",
+          "walking": false,
+          "pose": "collapsed",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "ed-nurse",
+          "action": "Alteplase 0.9 mg/kg — 10% bolus over 1 minute.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 7,
+          "actorRef": "ed-neurologist",
+          "action": "Door-to-needle 34 min. Within national target.",
+          "hasPos": true,
+          "posX": 290,
+          "posY": 230,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 14,
+          "actorRef": "ed-nurse",
+          "action": "Remaining 90% over 60 min as infusion. BP target <180/105.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "thrombectomy",
+      "id": "thrombectomy",
+      "title": "Mechanical thrombectomy — 09:58",
+      "scene": "cathlab",
+      "durationSec": 42,
+      "timeOfDay": "09:58 SGT",
+      "location": "NNI@TTSH biplane angio suite",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "nicu-transfer",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "On the angio table — alert, draped, right femoral access prep.",
+          "hasPos": true,
+          "posX": 210,
+          "posY": 187,
+          "direction": "S",
+          "walking": false,
+          "pose": "collapsed",
+          "expression": "distressed",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "neuro-intervent",
+          "action": "Right common femoral artery access via micropuncture.",
+          "hasPos": true,
+          "posX": 138,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 8,
+          "actorRef": "angio-radiog",
+          "action": "Biplane runs: left ICA cervical, then intracranial.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 14,
+          "actorRef": "neuro-intervent",
+          "action": "Navigates intermediate catheter to M1. Confirms cut-off.",
+          "hasPos": true,
+          "posX": 138,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 22,
+          "actorRef": "angio-nurse",
+          "action": "Stent retriever deployed across the clot. 4-minute wait.",
+          "hasPos": true,
+          "posX": 256,
+          "posY": 230,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 30,
+          "actorRef": "neuro-intervent",
+          "action": "Aspiration + stent retriever withdrawal — clot captured.",
+          "hasPos": true,
+          "posX": 138,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "svg",
+          "showpieceSvgId": "thrombectomy-pass"
+        },
+        {
+          "at": 38,
+          "actorRef": "neuro-intervent",
+          "action": "Final run: TICI 2b reperfusion. Procedure complete.",
+          "hasPos": true,
+          "posX": 138,
+          "posY": 232,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "nicu-transfer",
+      "id": "nicu-transfer",
+      "title": "Neuro-ICU transfer — 11:05",
+      "scene": "ward",
+      "durationSec": 24,
+      "timeOfDay": "11:05 SGT",
+      "location": "NNI@TTSH Neuro-ICU",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "stroke-ward",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "Settled in the NICU bed. Right side improving — moving the arm.",
+          "hasPos": true,
+          "posX": 205,
+          "posY": 183,
+          "direction": "S",
+          "walking": false,
+          "pose": "collapsed",
+          "expression": "pained",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "nicu-doctor",
+          "action": "Receives patient. Hourly neuro obs; BP target <180/105 for 24h.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 7,
+          "actorRef": "ward-nurse",
+          "action": "Bedside swallow screen positive — NBM pending SLT assessment.",
+          "hasPos": true,
+          "posX": 300,
+          "posY": 230,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 14,
+          "actorRef": "family-daughter",
+          "action": "At the bedside. Mother recognises her, mouths her name.",
+          "hasPos": true,
+          "posX": 110,
+          "posY": 230,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 20,
+          "actorRef": "nicu-doctor",
+          "action": "No symptomatic ICH on 24h CT. Step-down to stroke ward.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "stroke-ward",
+      "id": "stroke-ward",
+      "title": "Stroke unit MDT round — day 2",
+      "scene": "ward",
+      "durationSec": 38,
+      "timeOfDay": "09:30 day 2",
+      "location": "NNI@TTSH stroke unit",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "family-conference",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "Sitting up in bed. NIHSS now 6 — significant improvement.",
+          "hasPos": true,
+          "posX": 175,
+          "posY": 184,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "ward-consultant",
+          "action": "Daily MDT round. Plan: dual antiplatelet 21 days, then SAPT.",
+          "hasPos": true,
+          "posX": 150,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 9,
+          "actorRef": "speech-therapist",
+          "action": "Formal swallow assessment passed for thickened fluids.",
+          "hasPos": true,
+          "posX": 220,
+          "posY": 228,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 17,
+          "actorRef": "ward-physio",
+          "action": "Mobilises bedside. Edmonton balance assessment scheduled.",
+          "hasPos": true,
+          "posX": 290,
+          "posY": 224,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 24,
+          "actorRef": "ward-ot",
+          "action": "Upper-limb function — right grip 60% of left. Plans home assessment.",
+          "hasPos": true,
+          "posX": 350,
+          "posY": 220,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 32,
+          "actorRef": "family-daughter",
+          "action": "Asks about home modifications and going-home timeline.",
+          "hasPos": true,
+          "posX": 90,
+          "posY": 224,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "neutral",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "family-conference",
+      "id": "family-conference",
+      "title": "Family conference — day 4",
+      "scene": "counsel",
+      "durationSec": 32,
+      "timeOfDay": "14:00 day 4",
+      "location": "NNI@TTSH stroke unit counselling room",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "community-rehab",
+      "hasBranchPoint": true,
+      "branchPoint": {
+        "prompt": "Mdm Lim has plateaued; right-sided weakness remains moderate. What's the rehab destination?",
+        "options": [
+          {
+            "label": "Transfer to community hospital for 4-week inpatient rehab",
+            "hint": "Goal-oriented inpatient programme — best modified-Rankin outcome at 90 days for moderate residual deficits.",
+            "nextChapterRef": "community-rehab"
+          },
+          {
+            "label": "Discharge home with outpatient rehab",
+            "hint": "Faster home reintegration; daughter is available; outpatient blocks at TTSH. Less intensive.",
+            "nextChapterRef": "outpatient-review"
+          }
+        ]
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "ward-consultant",
+          "action": "Frames the rehab options for the family.",
+          "hasPos": true,
+          "posX": 150,
+          "posY": 222,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "neutral",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 8,
+          "actorRef": "family-daughter",
+          "action": "Sits with her mother. Asks about subsidies and length of stay.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 226,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "neutral",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 14,
+          "actorRef": "discharge-coord",
+          "action": "Walks through MediShield Life claim and CHAS subsidy bands.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 22,
+          "actorRef": "patient",
+          "action": "Speaks slowly: prefers the community-hospital block.",
+          "hasPos": true,
+          "posX": 280,
+          "posY": 228,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "neutral",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "community-rehab",
+      "id": "community-rehab",
+      "title": "Community hospital rehab — week 2",
+      "scene": "rehab",
+      "durationSec": 32,
+      "timeOfDay": "10:00 · week 2",
+      "location": "Bright Vision Community Hospital",
+      "hasDefaultNext": true,
+      "defaultNextChapterRef": "outpatient-review",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "On the parallel bars — assisted gait practice, daily.",
+          "hasPos": true,
+          "posX": 130,
+          "posY": 218,
+          "direction": "E",
+          "walking": true,
+          "pose": "walk",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "rehab-physio",
+          "action": "Supervises gait training. Berg balance score improving week-on-week.",
+          "hasPos": true,
+          "posX": 200,
+          "posY": 232,
+          "direction": "S",
+          "walking": false,
+          "pose": "stand",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 10,
+          "actorRef": "speech-therapist",
+          "action": "Naming therapy block. Mdm Lim names 14/20 common objects.",
+          "hasPos": true,
+          "posX": 290,
+          "posY": 224,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 18,
+          "actorRef": "ward-ot",
+          "action": "Kitchen task: makes a cup of teh herself — first since admission.",
+          "hasPos": true,
+          "posX": 350,
+          "posY": 218,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 26,
+          "actorRef": "family-daughter",
+          "action": "Visits after work. Home modifications (grab bars, shower seat) installed.",
+          "hasPos": true,
+          "posX": 80,
+          "posY": 224,
+          "direction": "E",
+          "walking": false,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    },
+    {
+      "key": "outpatient-review",
+      "id": "outpatient-review",
+      "title": "Stroke clinic review — 6 weeks",
+      "scene": "clinic",
+      "durationSec": 26,
+      "timeOfDay": "14:00 · 6 weeks later",
+      "location": "NNI@TTSH neurology clinic",
+      "hasDefaultNext": false,
+      "defaultNextChapterRef": "",
+      "hasBranchPoint": false,
+      "branchPoint": {
+        "prompt": "",
+        "options": []
+      },
+      "beats": [
+        {
+          "at": 0,
+          "actorRef": "patient",
+          "action": "Walks into clinic with a four-point stick. mRS 2.",
+          "hasPos": true,
+          "posX": 250,
+          "posY": 220,
+          "direction": "S",
+          "walking": true,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 0,
+          "actorRef": "clinic-neuro",
+          "action": "Reviews recovery: NIHSS 2, expressive aphasia mild residual.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 222,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "relieved",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 9,
+          "actorRef": "clinic-neuro",
+          "action": "Continues clopidogrel monotherapy after the 21-day DAPT block.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 222,
+          "direction": "S",
+          "walking": false,
+          "pose": "point",
+          "expression": "focused",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 16,
+          "actorRef": "clinic-neuro",
+          "action": "Atorvastatin 40 mg. BP target <130/80. Books 6-month review.",
+          "hasPos": true,
+          "posX": 320,
+          "posY": 222,
+          "direction": "W",
+          "walking": false,
+          "pose": "stand",
+          "expression": "neutral",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        },
+        {
+          "at": 22,
+          "actorRef": "family-daughter",
+          "action": "Asks about driving and flying — guidance given.",
+          "hasPos": true,
+          "posX": 180,
+          "posY": 222,
+          "direction": "S",
+          "walking": false,
+          "pose": "sit",
+          "expression": "neutral",
+          "showpieceKind": "",
+          "showpieceSvgId": ""
+        }
+      ]
+    }
+  ]
+}

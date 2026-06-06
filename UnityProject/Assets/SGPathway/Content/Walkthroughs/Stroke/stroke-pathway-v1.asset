@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b72740d87e5b1c4e895536afe07b81c, type: 3}
+  m_Name: stroke-pathway-v1
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.WalkthroughSO
+  id: stroke-pathway-v1
+  title:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  titleText: "Stroke \u2014 large-vessel occlusion pathway"
+  startChapter: {fileID: 11400000, guid: 9b93b88471cd74b448298a4282f8e3d9, type: 2}
+  chapters:
+  - {fileID: 11400000, guid: 9b93b88471cd74b448298a4282f8e3d9, type: 2}
+  - {fileID: 11400000, guid: 515261dffaed05e42b45bce3c2f7aeef, type: 2}
+  - {fileID: 11400000, guid: a2a349c8837751d4b9516f3e418801cc, type: 2}
+  - {fileID: 11400000, guid: 0769a730f93034747a7812a127facbe8, type: 2}
+  - {fileID: 11400000, guid: 353019dd487570e4bb4941aaf2017a48, type: 2}
+  - {fileID: 11400000, guid: 229372446dc77a34695776f045ec6b5c, type: 2}
+  - {fileID: 11400000, guid: a591d7ef4a456844994707590aac62b5, type: 2}
+  - {fileID: 11400000, guid: 684f603d9c2ffd848a405a1b6b0e39d7, type: 2}
+  - {fileID: 11400000, guid: f12b7011568a24049a0e49e8d230066e, type: 2}
+  - {fileID: 11400000, guid: 6520932ad61837442a7843460009f6e8, type: 2}
+  - {fileID: 11400000, guid: f90ae23da579a2f47950e0f8c13dffac, type: 2}
+  - {fileID: 11400000, guid: 226ce1351111ebb4c8d2ee64fd4d42c0, type: 2}
+  actors:
+  - {fileID: 11400000, guid: 3267c4e121fb3a44bb12cbda64485426, type: 2}
+  - {fileID: 11400000, guid: 9c97b31702fd11440b9391b3478ed540, type: 2}
+  - {fileID: 11400000, guid: ac63955291167f046879b872c11fc1ad, type: 2}
+  - {fileID: 11400000, guid: ee9080ce3239aa546a70a8b1bfd54885, type: 2}
+  - {fileID: 11400000, guid: aac4bd677e907df4f8cf8e797a300410, type: 2}
+  - {fileID: 11400000, guid: e567a0db3324fce43a7595ec8a6b6125, type: 2}
+  - {fileID: 11400000, guid: ac2028b214119884d93f6cd051173507, type: 2}
+  - {fileID: 11400000, guid: ab738270f175bb9439096bd8c67924fb, type: 2}
+  - {fileID: 11400000, guid: f4fb591cbaba8f746a27b3f90d043e3f, type: 2}
+  - {fileID: 11400000, guid: d22bc76ff1fb18640a1b09b28a90879f, type: 2}
+  - {fileID: 11400000, guid: 9ca8ece6af7ec2a488fb579a2c43f4b0, type: 2}
+  - {fileID: 11400000, guid: d74d4b14b4db0db4d81ceb2d5dec8c65, type: 2}
+  - {fileID: 11400000, guid: 3797a6e16125b8947aa373e6e7408cb8, type: 2}
+  - {fileID: 11400000, guid: caed53af8d03d6643a9c285187dd98b2, type: 2}
+  - {fileID: 11400000, guid: 548e0b1240fa54b4daef5afd0d914f21, type: 2}
+  - {fileID: 11400000, guid: d65991fcfc885e941af9c737fcdace9c, type: 2}
+  - {fileID: 11400000, guid: ccbbe6cc6dc0707408f83e8c64340c1a, type: 2}
+  - {fileID: 11400000, guid: 27f55559517da4145aec2e033f147bfd, type: 2}
+  - {fileID: 11400000, guid: a671bbed4f794f64aa4534e1893fe363, type: 2}
+  - {fileID: 11400000, guid: 3f195215462d0ee47bf38549c10e4f8a, type: 2}
+  - {fileID: 11400000, guid: 569db31f0dab8f444ab2fc6b7ed04ada, type: 2}
+  - {fileID: 11400000, guid: da3975b9cc47ab540a2f891176927464, type: 2}
+  references:
+    version: 2
+    RefIds: []

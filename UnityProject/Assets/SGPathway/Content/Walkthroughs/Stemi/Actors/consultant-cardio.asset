@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b216270264c588e46a6e2f9680451565, type: 3}
+  m_Name: consultant-cardio
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ActorSO
+  key: consultant-cardio
+  id: consultant-cardio
+  roleText: Consultant cardiologist
+  role:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  team: 5
+  bioText: Senior cardiologist leading the heart-team discussion. Chairs the family
+    conference, explains options in plain Mandarin.
+  bio:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  swatch: {r: 0.7529412, g: 0.5176471, b: 0.9882353, a: 1}
+  references:
+    version: 2
+    RefIds: []

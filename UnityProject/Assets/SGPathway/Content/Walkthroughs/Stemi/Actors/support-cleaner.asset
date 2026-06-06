@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b216270264c588e46a6e2f9680451565, type: 3}
+  m_Name: support-cleaner
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.ActorSO
+  key: support-cleaner
+  id: support-cleaner
+  roleText: Coffee shop attendant
+  role:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  team: 9
+  bioText: Coffee shop attendant who clears tables and keeps onlookers back so the
+    CFR can work. Singapore CPR culture in action.
+  bio:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  swatch: {r: 0.5803922, g: 0.6392157, b: 0.72156864, a: 1}
+  references:
+    version: 2
+    RefIds: []

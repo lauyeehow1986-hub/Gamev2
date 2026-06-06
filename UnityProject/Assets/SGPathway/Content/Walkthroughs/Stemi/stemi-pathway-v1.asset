@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b72740d87e5b1c4e895536afe07b81c, type: 3}
+  m_Name: stemi-pathway-v1
+  m_EditorClassIdentifier: SGPathway.Runtime::SGPathway.Data.WalkthroughSO
+  id: stemi-pathway-v1
+  title:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  titleText: "STEMI \u2014 full patient journey"
+  startChapter: {fileID: 11400000, guid: c444446c04fec0c448a46d14896028f6, type: 2}
+  chapters:
+  - {fileID: 11400000, guid: c444446c04fec0c448a46d14896028f6, type: 2}
+  - {fileID: 11400000, guid: 1ec118cd66e1cdf4f951adbd5c227622, type: 2}
+  - {fileID: 11400000, guid: c894906f06afa46448dde7a07f27e3ea, type: 2}
+  - {fileID: 11400000, guid: 56552144f66c3b54ebbee0c4b8e4131c, type: 2}
+  - {fileID: 11400000, guid: 147455bf857fc5449bbcfa7599497b17, type: 2}
+  - {fileID: 11400000, guid: 7d3916e755ab5a2468609991697bc685, type: 2}
+  - {fileID: 11400000, guid: 03327013d3ce6d24da3c6a0cba155e98, type: 2}
+  - {fileID: 11400000, guid: 32bc72490ee93d246af2dddd93ba7f90, type: 2}
+  - {fileID: 11400000, guid: 0aba386e7e8edd04dbcd3c43af4d67e7, type: 2}
+  - {fileID: 11400000, guid: 615093892dd429547b67f906360ddd2b, type: 2}
+  - {fileID: 11400000, guid: 50d8199d42124c143ba2978e00519744, type: 2}
+  - {fileID: 11400000, guid: 1665fa9520c82104a91ded3af93aa934, type: 2}
+  - {fileID: 11400000, guid: 8708dfc60a60d7b4a9cf31cfd7dc4b03, type: 2}
+  - {fileID: 11400000, guid: 7fe39b69474676c4cba61a1353137cd3, type: 2}
+  - {fileID: 11400000, guid: ffc33d65f4494e34291cd9ae69474c30, type: 2}
+  - {fileID: 11400000, guid: 4827347a9a1ac2643bb475e9d3cc6354, type: 2}
+  - {fileID: 11400000, guid: 2a2f8a96cf5edd24eb9c796bc2d08346, type: 2}
+  - {fileID: 11400000, guid: ba737a02e0d3e7545b6e9d0c4c804377, type: 2}
+  - {fileID: 11400000, guid: ea4925c53c1ad8a40a50451bca6192ee, type: 2}
+  - {fileID: 11400000, guid: 107d0bbce0ded8d4d8b8731e07b5c306, type: 2}
+  actors:
+  - {fileID: 11400000, guid: ffe0881408eccef44b89ac6900692ad0, type: 2}
+  - {fileID: 11400000, guid: f0866d3911e689140a19d5b4dc5737de, type: 2}
+  - {fileID: 11400000, guid: a74ac91c4198fa5459436b8ea332ddf0, type: 2}
+  - {fileID: 11400000, guid: 63ebc55f5d241734e9fa78cf3cd2e288, type: 2}
+  - {fileID: 11400000, guid: d28a55a7ff0a9084e805b940559198dd, type: 2}
+  - {fileID: 11400000, guid: 32a4a9b5d96c23447b41a592301cb3bc, type: 2}
+  - {fileID: 11400000, guid: 4932d370696b3694dabb35a9c3e30f64, type: 2}
+  - {fileID: 11400000, guid: 92fece14ba7e15e44bc39b6599f863c8, type: 2}
+  - {fileID: 11400000, guid: 0802dac5915144646b6f01d738792703, type: 2}
+  - {fileID: 11400000, guid: 9e2f246d78e7d0d4ea2d40b2e65ab690, type: 2}
+  - {fileID: 11400000, guid: 20b5c743597187d49ab8c449ddf52727, type: 2}
+  - {fileID: 11400000, guid: 0e010a1350be6a24d8b2b22154c56425, type: 2}
+  - {fileID: 11400000, guid: 5c97a06ed4cf4a8418a4d1a09e6a9e7c, type: 2}
+  - {fileID: 11400000, guid: 44cdc43fe0490ea49b093c0ebaf94864, type: 2}
+  - {fileID: 11400000, guid: 7410d1a889e43974592a627a5c620604, type: 2}
+  - {fileID: 11400000, guid: 3788872162642394aa7e77c937185f24, type: 2}
+  - {fileID: 11400000, guid: dc7142db48ab34f439929f3fde4feac3, type: 2}
+  - {fileID: 11400000, guid: f8fc48cd80b0b494581e35f5b40a2cd1, type: 2}
+  - {fileID: 11400000, guid: d1d663728744cb947a26f8147f9acdb2, type: 2}
+  - {fileID: 11400000, guid: b2366e62140f81241b23e3a9cc1e6f9f, type: 2}
+  - {fileID: 11400000, guid: 8bd6cd076595134418a6079fbdbcfcc8, type: 2}
+  - {fileID: 11400000, guid: 7b06a735e686f9a478b9670a96e53832, type: 2}
+  - {fileID: 11400000, guid: aeb704cf26a902645a4c4f5dd3882ecf, type: 2}
+  - {fileID: 11400000, guid: c66e87797f89d1540a8ce40fc30133ea, type: 2}
+  - {fileID: 11400000, guid: 2ebf6f3be11ddbe498cfc6d16d72bf61, type: 2}
+  - {fileID: 11400000, guid: f73f8947f771e9d4c8784e581bbd0303, type: 2}
+  - {fileID: 11400000, guid: a5a303868b1990547a688ec1d71b4932, type: 2}
+  - {fileID: 11400000, guid: 69f62d6f101da734e874aa474a14aae4, type: 2}
+  - {fileID: 11400000, guid: 1890ca30268b75c4aa7271dec6e3ffa6, type: 2}
+  - {fileID: 11400000, guid: c2077fe41cf496b48a97ccb021bbb1f1, type: 2}
+  - {fileID: 11400000, guid: 965c6f9a82b79724ab975498b7e3fdb3, type: 2}
+  - {fileID: 11400000, guid: c5ca04d1f1d3ddb4691692a601baf133, type: 2}
+  - {fileID: 11400000, guid: ae635c06b6ccef24592ae321e31fea39, type: 2}
+  - {fileID: 11400000, guid: f1085b7ea4b251749a3e62f6e3c476e9, type: 2}
+  - {fileID: 11400000, guid: 165161af63a79f74fa9338935b617931, type: 2}
+  - {fileID: 11400000, guid: 5739fea2bab32be4698d90387e8f86a4, type: 2}
+  - {fileID: 11400000, guid: cc1806da39b53944e95c44e731928c06, type: 2}
+  references:
+    version: 2
+    RefIds: []
