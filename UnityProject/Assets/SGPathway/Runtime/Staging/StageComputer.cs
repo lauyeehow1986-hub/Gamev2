@@ -45,15 +45,17 @@ namespace SGPathway.Staging
             var result = new Staging();
             if (chapter == null) return result;
 
+            // Lead = active beat with the highest `at`; deterministic tie-break by actor Id
+            // (C# Dictionary iteration order is unspecified, so make ties reproducible).
             ActorSO leadActor = null;
             float leadAt = float.NegativeInfinity;
             foreach (var kv in activeByActor)
             {
-                if (kv.Value.at > leadAt)
-                {
-                    leadAt = kv.Value.at;
-                    leadActor = kv.Key;
-                }
+                bool better = kv.Value.at > leadAt ||
+                    (kv.Value.at == leadAt && leadActor == null) ||
+                    (kv.Value.at == leadAt && leadActor != null &&
+                     string.Compare(kv.Key.Id, leadActor.Id, System.StringComparison.Ordinal) < 0);
+                if (better) { leadAt = kv.Value.at; leadActor = kv.Key; }
             }
             result.LeadActor = leadActor;
 
@@ -82,8 +84,13 @@ namespace SGPathway.Staging
                     IsLead = actor == leadActor,
                 });
             }
-            // Painter's algorithm: figures with smaller y (further back) drawn first.
-            result.Figures.Sort((a, b) => a.Y.CompareTo(b.Y));
+            // Painter's algorithm: smaller y (further back) drawn first; stable tie-break by Id.
+            result.Figures.Sort((a, b) =>
+            {
+                int byY = a.Y.CompareTo(b.Y);
+                if (byY != 0) return byY;
+                return string.Compare(a.Actor.Id, b.Actor.Id, System.StringComparison.Ordinal);
+            });
             return result;
         }
     }
