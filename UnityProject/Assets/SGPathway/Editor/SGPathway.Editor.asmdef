@@ -1,0 +1,13 @@
+{
+    "name": "SGPathway.Editor",
+    "rootNamespace": "SGPathway.EditorTools",
+    "references": [
+        "SGPathway.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

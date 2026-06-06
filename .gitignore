@@ -1,0 +1,29 @@
+# ---- Unity ----
+UnityProject/[Ll]ibrary/
+UnityProject/[Tt]emp/
+UnityProject/[Oo]bj/
+UnityProject/[Bb]uild/
+UnityProject/[Bb]uilds/
+UnityProject/[Ll]ogs/
+UnityProject/[Uu]serSettings/
+UnityProject/[Mm]emoryCaptures/
+UnityProject/[Rr]ecordings/
+UnityProject/.vs/
+UnityProject/*.csproj
+UnityProject/*.sln
+UnityProject/*.user
+
+# ---- Working inputs / third-party (not part of this project) ----
+Game-source/
+*.zip
+Godot_v4.6.3-stable_win64.exe/
+unity-mcp-server-main/
+mesh2motion-desktop-main/
+
+# ---- Node ----
+**/node_modules/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/

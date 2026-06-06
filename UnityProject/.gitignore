@@ -1,0 +1,43 @@
+# Unity-generated folders (regenerated on open)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset Store and editor caches
+Assets/AssetStoreTools*
+Assets/Plugins/Editor/JetBrains*
+
+# Generated IDE files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vscode/
+sysinfo.txt
+
+# Burst-generated, crash dumps
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+ExportedObj/
+*.bak
