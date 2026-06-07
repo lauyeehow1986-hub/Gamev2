@@ -20,6 +20,17 @@ Godot_v4.6.3-stable_win64.exe/
 unity-mcp-server-main/
 mesh2motion-desktop-main/
 
+# ---- Large character source (CC5 / Character Creator exports) — kept local, regenerable from CC5 ----
+# ~0.5 GB per character (FBX + 4K textures); exceeds GitHub's 100 MB file limit.
+# Prefabs in Content/Prefabs reference these by GUID; they resolve on this (single-user) machine.
+UnityProject/Assets/SGPathway/Content/Characters/
+
+# ---- CC/iC Unity Tools (Reallusion Auto Setup) — third-party, re-downloadable ----
+UnityProject/Packages/CCiC-Unity-Tools-2.2.6/
+# Shader-package output the tool imports into Assets (re-generable from the tool) — local only
+UnityProject/Assets/Reallusion/
+UnityProject/Assets/Reallusion.meta
+
 # ---- Node ----
 **/node_modules/
 
